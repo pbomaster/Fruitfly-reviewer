@@ -31,8 +31,8 @@
   },
   {
     "path": "docs/RELEASE-VERIFICATION.json",
-    "bytes": 388,
-    "sha256": "6bd8be06156ab9db52a74839523b9c7c898abfd0b538c5e5b0a2e46da928629f"
+    "bytes": 379,
+    "sha256": "39c732f2bb9990e310318d25a01e309ddf2c112b559ac7acb3279bfd7dc1bae6"
   },
   {
     "path": "download_graph.py",
