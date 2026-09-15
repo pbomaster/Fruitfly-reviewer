@@ -1,0 +1,42 @@
+{
+  "checkpoint": {
+    "slot": "a",
+    "step": 250,
+    "sha256": "33af3bdfd4c84768fa806590ad0b310ab765707a7441d615b2dd5cfe65a589ce",
+    "bytes": 60596748,
+    "saved_unix": 1789483950.1146724,
+    "file": "outputs\\sections-v9\\best\\checkpoint-a.pt"
+  },
+  "target_pdf_trained": false,
+  "test": {
+    "heldout": {
+      "n": 32,
+      "papers": 10,
+      "exact": 0.46875,
+      "ended_eos": 1.0
+    },
+    "heldout-graph-removed": {
+      "n": 32,
+      "papers": 10,
+      "exact": 0.0,
+      "ended_eos": 1.0
+    }
+  },
+  "full-paper": {
+    "pages": 39,
+    "tokens": 81963,
+    "input_sha256": "6665b09941098551686173648a1aae7c515a67e76e80038ce59b8cc522291d6a",
+    "abstract_sentences": 11,
+    "all_text_preserved": true,
+    "ended_eos": true
+  },
+  "normalized-paper": {
+    "pages": 39,
+    "tokens": 81028,
+    "input_sha256": "b869e2cbbb69b6608f4afadd12fedad82d0500009fdcda838240ceec7620532c",
+    "abstract_sentences": 11,
+    "all_text_preserved": true,
+    "ended_eos": true
+  },
+  "review_success": "Requires source-grounded assessment; no automatic success."
+}

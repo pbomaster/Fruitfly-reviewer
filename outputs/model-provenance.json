@@ -1,0 +1,38 @@
+{
+  "source": "https://huggingface.co/ngxson/fly-llm-hf",
+  "revision": "65c677b3d566a2e9793d5f72999cdb441c6c0a9f",
+  "files": {
+    "model.safetensors": {
+      "bytes": 284134372,
+      "sha256": "355f06c44d14e38af50e9c801f51839c37a0a56ac4ca016da2be9b3ae6f215ad"
+    },
+    "tokenizer_config.json": {
+      "bytes": 245,
+      "sha256": "42607e96e3e680826b662f1e772fe31af3572eb2a5b19ebca1ce665d5fe69758"
+    },
+    "config.json": {
+      "bytes": 723,
+      "sha256": "4d1803c19b6c7c52719910758bf7ac21a0cb165e72a9fe60afb694c08415c2e7"
+    },
+    "tokenizer.json": {
+      "bytes": 54528,
+      "sha256": "23fa13e034934738acffb418c9cbaa36d2f95e4d14b576e5d5313857feb81efb"
+    },
+    "modeling_fly.py": {
+      "bytes": 10322,
+      "sha256": "43efb042f2809fe87eb172718511aa884b7b9f7c356181bede9f70148bb87319"
+    },
+    "generation_config.json": {
+      "bytes": 216,
+      "sha256": "ec36960ffaccb09d682bc355b89a64a969a16417de96d64350fcb66aebaec7eb"
+    },
+    "README.md": {
+      "bytes": 8205,
+      "sha256": "7c7a5789f8dbd6df11366ce2e3d4a7f52a1971a02c8a661f4a10ca3d1853c336"
+    },
+    "configuration_fly.py": {
+      "bytes": 1569,
+      "sha256": "b565734525fc10fb05b7da4c1d00e0ed244341ad0bb40d10cb1311d7c8c0c66a"
+    }
+  }
+}

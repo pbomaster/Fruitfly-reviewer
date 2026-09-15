@@ -1,0 +1,29 @@
+{
+  "nodes": 49393,
+  "edges": 9050172,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "driver_query_file": "outputs/nvidia-smi-5090.txt",
+  "compiled_architectures": [
+    "sm_50",
+    "sm_60",
+    "sm_61",
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "gpu_capability": [
+    12,
+    0
+  ],
+  "forward_max_abs_error": 8.344650268554688e-07,
+  "gradient_max_abs_error": 5.7220458984375e-06,
+  "forward_relative_l2": 1.7519109007935185e-07,
+  "gradient_relative_l2": 3.4930812375932874e-07,
+  "forward_pass": true,
+  "gradient_pass": true,
+  "model_sha256": "355f06c44d14e38af50e9c801f51839c37a0a56ac4ca016da2be9b3ae6f215ad"
+}

@@ -1,0 +1,1 @@
+We present the connectome of the entire Drosophila male central nervous system. Limitations due to lack of hemilineage assignment, ambiguity in lineage/cell type delineation, and technical limitations imposed by the genetic labeling prevented annotation for certain groups of cells. 

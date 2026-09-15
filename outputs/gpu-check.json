@@ -1,0 +1,14 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.7.1+cu128",
+  "torch_cuda": "12.8",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "capability": [
+    12,
+    0
+  ],
+  "memory_bytes": 34162016256,
+  "sparse_forward_ok": true,
+  "sparse_input_gradient_ok": true
+}

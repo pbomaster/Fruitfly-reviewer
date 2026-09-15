@@ -1,0 +1,9 @@
+# Install PyTorch separately with the CUDA 12.8 index (see README).
+numpy==2.5.3
+safetensors==0.8.0
+tokenizers==0.23.2
+pypdf==6.18.1
+pymupdf==1.28.2
+huggingface_hub==1.31.0
+scipy==1.18.1
+

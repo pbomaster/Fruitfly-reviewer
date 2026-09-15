@@ -1,0 +1,9 @@
+{
+  "release_inference": "passed on RTX 5090 using existing validated environment",
+  "raw_output_matches_original": true,
+  "input_pdf_in_repository": false,
+  "clean_environment_install_tested": false,
+  "checkpoint_metadata_path_scan": "passed",
+  "tracked_file_path_scan": "passed",
+  "checkpoint_sha256": "33af3bdfd4c84768fa806590ad0b310ab765707a7441d615b2dd5cfe65a589ce"
+}

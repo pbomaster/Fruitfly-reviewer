@@ -1,0 +1,48 @@
+{
+  "step": 500,
+  "best_dev_objective": 0.3482718985503241,
+  "history": [
+    {
+      "step": 250,
+      "dev_objective": 0.3482718985503241,
+      "dev_token_nll": 0.07469286145676766,
+      "sample_exact": 0.25
+    },
+    {
+      "step": 500,
+      "dev_objective": 0.5467855233295174,
+      "dev_token_nll": 0.13478912681863536,
+      "sample_exact": 0.25
+    }
+  ],
+  "elapsed_seconds": 365.1720000000005,
+  "config": {
+    "version": 9,
+    "batch": 8,
+    "lr": 0.0003,
+    "seed": 55123,
+    "init": {
+      "slot": "b",
+      "step": 500,
+      "sha256": "0983f185f0f4d975e41cd55cc2d44cf538f5041cbbff932d7ef586905cbea79c",
+      "bytes": 60596556,
+      "saved_unix": 1789483394.9867914,
+      "file": "outputs\\coverage-v8\\best\\checkpoint-b.pt"
+    },
+    "corpus_sha256": "48682c4f9c35a64cd64b493e4bda3113ce19ecbe9a6c470d2bab4200ecc93c49",
+    "code": {
+      "train_sections.py": "b9c74f13736245e31344b5579dec6826afafc1a029f2fa685481aae278cf99c5",
+      "coverage_pointer.py": "d140197c2d0b78ec4e91ede733a39f71dbeb28ddf394ddbecee5af820eeb36e6",
+      "section_tasks.py": "19ebf0fbd371d9a3dda21d2d4bfbd9621b0e55ac0cb0bffa09d2e9fc95e441d3",
+      "extractive_tasks.py": "c487e171473a2165e845a609ffe005bfb2f8a0b2103a6acbdc9ce62af79be37f",
+      "extractive_pointer.py": "d9d70401bf0892648cf51ac665fdf60830c452b049684a366f6a451a41392af5",
+      "query_pointer.py": "fd9b0fefa73602b67df05ed083671fb746096255df2a2e9d6c6286f6248236a8",
+      "graph_pointer.py": "376d72e5e866942fbfdeac13560d766b22ad64771dd5ad96c8f0c7c2f893913a",
+      "connectome_memory.py": "68e331ded711e536736173f819ca95fcb5e21564864f3b6b4fd5e457036106f1",
+      "resumable_checkpoint.py": "d0326e1dc2b8bd6c313eb7d0af28c17e48b9b2e7bd44fb7d1b2007717b703498"
+    },
+    "scope": "Publisher abstract/body markers, refined limitations, 24 source sentences. External coverage bookkeeping feeds graph sensory neurons; learned revisit penalty. Transition-weighted token/alignment loss plus supervised copy/EOS gate. Same v6 architecture and corpus. Weakly supervised extractive contribution-plus-limitation paragraph; not expert review labels.",
+    "target_pdf_used": false
+  },
+  "review_success": false
+}
