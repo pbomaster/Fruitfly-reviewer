@@ -15,9 +15,14 @@
     "sha256": "8ae036f4baacc730b45af9cd007556f28038d9d28d69795efc5eeb90d99a66e9"
   },
   {
+    "path": "README.en.md",
+    "bytes": 7557,
+    "sha256": "e479887f61b5fbbe9092f4e892d0619366c95f2b1f21aeee6de3dda8b40ac72b"
+  },
+  {
     "path": "README.md",
-    "bytes": 6590,
-    "sha256": "5c31493cc406775ebf4e2a10091abb3f79dae1645a509d8abef57e316d52832d"
+    "bytes": 7719,
+    "sha256": "4f9c82af1fab94bd09c4dea094d0e4f650d30d71999849b0358f9273bc384132"
   },
   {
     "path": "check_gpu.py",

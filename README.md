@@ -1,5 +1,7 @@
 # Fruitfly-reviewer
 
+[한국어](README.md) | [English](README.en.md)
+
 **MaleCNS 초파리 연결망을 사용해 학습한 실험적 논문 발췌 모델입니다.** 기존 대형 언어모델의 언어 가중치나 API를 사용하지 않습니다. PDF에서 주요 기여와 한계 문장을 골라 짧은 문단을 생성합니다.
 
 > Experimental connectome-based extractive paper reviewer. Language components were trained in this project; no pretrained LLM backbone or LLM API. This is a limited sentence-extraction result, not a general scientific peer reviewer.
@@ -61,3 +63,9 @@ eLife 공개 XML에서 학습 자료를 구성했습니다. 논문별 분할을 
 [MaleCNS](https://github.com/natverse/malecns), [원본 데모](https://huggingface.co/spaces/VIDraft/fruitfly-brain), [그래프 아티팩트](https://huggingface.co/ngxson/fly-llm-hf), [eLife XML](https://github.com/elifesciences/elife-article-xml)를 참고했습니다. 자세한 출처와 배포 범위는 [NOTICE](NOTICE.md)에 있습니다. 프로젝트의 별도 재사용 라이선스는 아직 지정하지 않았습니다.
 
 논문 PDF, 학습 XML 원본, 전체 입력 텍스트, 가상 환경, 개인 인수인계 문서는 포함하지 않습니다. 실패한 실험과 원본 실행 기록은 로컬 연구 작업공간에 보존되어 있습니다.
+
+## GPT-6 Astra가 수행한 작업 범위
+
+사용자가 목표·제약·실행 환경을 제공하고 진행 방향 및 공개를 결정했으며, GPT-6 Astra는 코딩 에이전트로서 기존 기록과 외부 자료 조사, 실험 설계와 코드 작성·수정, GPU 환경 점검과 실행 검증, 학습 자료 처리, 모델 학습·평가 실행, 중간 저장·재개 구현 및 검사, 출력과 논문 내용의 대조, 실패·한계 분석, 문서 작성·번역, 민감정보 검사와 GitHub 게시 작업을 수행했습니다. 원본 연결망 데이터와 논문은 각 원저자의 작업입니다.
+
+GPT-6 Astra는 프로젝트 개발과 검증을 지원한 에이전트이며 배포 모델의 언어 백본이나 추론 API가 아닙니다. 위에 인용한 리뷰는 별도로 학습한 연결망 기반 모델의 수정하지 않은 실제 출력입니다. Astra가 쓴 리뷰로 대체하거나 목표 논문의 정답 리뷰를 외우게 한 결과가 아닙니다. 이 문서의 결과 해석은 독립적인 외부 검증을 의미하지 않습니다.
